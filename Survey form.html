@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<header>
+  <div class="header">
+    <img src="https://i.postimg.cc/jjdmRkFk/Apple-logo-black-svg.png" alt="apple logo" width="20%" height="20%">
+    <h1 id="title">Apple</h1>
+  </div>
+</header>
+<link rel="stylesheet" href="Survey form.css" />
+<body>
+  <br>
+  <p id="description">Fill the details below to order an iphone </p>
+  <form id="survey-form">
+    <div class="input-headings">
+      <label for="name" id="name-label">Name</label>
+      <input id="name" type="text" name="name" placeholder="Gayathri" class="form-input" required> </input><br><br>
+      <label for="email" id="email-label">E-mail</label>
+      <input id="email" type="email" name="email" placeholder="gayathri@gmail.com" class="form-input" required> </input><br><br>
+      <label for="number" id="number-label">Age</label>
+      <input id="number" type="number" name="number" placeholder="18" min="18" max="100" class="form-input" required> </input><br><br>
+      <label for="dropdown" id="dropdown">Select Model</label>
+      <select id="dropdown" class="form-input">
+        <option value="Iphone_6">Iphone 6</option>
+        <option value="Iphone_7">Iphone 7</option>
+        <option value="Iphone_SE">Iphone SE</option>
+        <option value="Iphone_10">Iphone 10</option>
+        <option value="Iphone_10R">Iphone 10R</option>
+        <option value="Iphone_11">Iphone 11</option>
+        <option value="Iphone_11_pro">Iphone 11 pro</option>
+        <option value="Iphone_12">Iphone 12</option>
+        <option value="Iphone_12_pro">Iphone 12 pro</option>
+      </select><br> <br>
+      <label for="model_color" id="model_color">Model color:</label>
+      <input id="model_color" type="radio" name="color" id="black" value="black">
+      <label for="model_color">Black</label>
+      <input id="model_color" type="radio" name="color" id="red" value="red">
+      <label for="model_color">Red</label>
+      <input id="model_color" type="radio" name="color" id="grey" value="grey">
+      <label for="model_color">Grey</label><br><br>
+      <label for="internal_memory">Internal Memory</label><br>
+      <input id="checkbox" type="checkbox" name="internal_memory" value="64 GB">
+      <label for="internal_memory">64 GB</label><br>
+      <input id="checkbox" type="checkbox" name="internal_memory" value="128 GB">
+      <label for="internal_memory">128 GB</label><br>
+      <input id="checkbox" type="checkbox" name="internal_memory" value="256 GB">
+      <label for="internal_memory">256 GB</label><br><br>
+      <label for="ram">RAM</label><br>
+      <input id="checkbox" type="checkbox" name="ram" value="4 GB">
+      <label for="ram">4 GB</label><br>
+      <input id="checkbox" type="checkbox" name="ram" value="6 GB">
+      <label for="ram">6 GB</label><br>
+      <input id="checkbox" type="checkbox" name="ram" value="8 GB">
+      <label for="ram">8 GB</label><br><br>
+      <label id="textarea">Additional Comments</label><br>
+      <textarea id="textarea" name="instructions" rows="5" cols="35" class="area">
+</textarea><br><br>
+      <input id="submit" type="submit" value="Place Order" class="submit-button">
+    </div>
+  </form>
+</body>
+
+</html>
